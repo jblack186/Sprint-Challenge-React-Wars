@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import StarWars from './components/StarWars';
 class App extends Component {
   constructor() {
     super();
@@ -12,7 +12,7 @@ class App extends Component {
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
   }
-
+                                                                     
   getCharacters = URL => {
     // feel free to research what this code is doing.
     // At a high level we are calling an API to fetch some starwars data from the open web.
@@ -29,12 +29,17 @@ class App extends Component {
       });
   };
 
+
   render() {
     return (
       <div className="App">
+     
+
+<StarWars item={this.state.starwarsChars} />
         <h1 className="Header">React Wars</h1>
       </div>
     );
+
   }
 }
 
