@@ -3,7 +3,9 @@ import React from 'react';
 function Char(props) {
 return (
     <div>
-        <p>{props.attributes.name}</p>
+        <h1>{props.attributes.name}</h1>
+        <p>{props.attributes.birth_year}</p>
+
     </div>
 )
 }
