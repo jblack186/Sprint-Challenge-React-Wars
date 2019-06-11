@@ -27,11 +27,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 - [ ] What does it mean to _think_ in react?
-
+Thinking in react involves looking at components of a project as peices designed to do one thing. 
 - [ ] Describe state.
-
+State is an object that stores data in a component. It can be passed around as well as changed with proper synatax. It is stored on the constructor.
 - [ ] Describe props.
-
+Props is data from state that is being passed around to different components.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

@@ -5,4 +5,18 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+h1 {
+  font-size: 1.5 rem;
+  margin: 0 auto;
+  width: 20%;
+  background-color: purple;
+}
+
+p {
+  font-size: 1 rem;
+  margin: 0 auto;
+  width: 20%;
+  background-color: silver;
+}
 /* write your parent styles in here for your App.js */
